@@ -1,0 +1,26 @@
+#player {
+    margin: 0;
+    padding: 0;
+    display: relative;
+}
+
+#top {
+    position: absolute;
+    top: calc(80vh * 0.074);
+    left: calc(80vh * 0.957 * 0.263);
+    z-index: -1;
+    width: calc(80vh * 0.957 * 0.47);
+}
+
+#bottom {
+    position: absolute;
+    top: calc(80vh * 0.579);
+    z-index: -1;
+    left: calc(80vh * 0.957 * 0.263);
+    width: calc(80vh * 0.957 * 0.47);
+}
+
+img{
+    display: block;
+    height:80vh;
+}
