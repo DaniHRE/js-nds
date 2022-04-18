@@ -1,14 +1,17 @@
 <!doctype html>
 <html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
 <body>
-    <desmond-player id="player"></desmond-player>
-    <script src="https://cdn.jsdelivr.net/gh/Unzor/desmond/cdn/desmond.min.js"></script>
-  <script>
-      var player = document.getElementById("player");
-      player.loadURL("/roms/ROMHERE.nds", function(){
-         player.enableMicrophone();
-      })
-  </script>
+  <desmond-player id="player"></desmond-player>
+  <input type="file"></input>
+  <script src="./components/desmond.min.js"></script>
+  <script src="./loadStyle.js"></script>
+  <script src="./loadCore.js"></script>
 </body>
 
 </html>
