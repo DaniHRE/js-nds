@@ -1,10 +1,10 @@
-import Lang from './plugins/filepond/languages/index.js'
+import Lang from "./plugins/filepond/languages/index.js";
 
 class Plugin {
-    loadPlugin() {
-        const lang = new Lang();
-        lang.pt()
-    }
+  loadPlugin() {
+    const lang = new Lang();
+    lang.pt();
+  }
 }
 
 const plugin = new Plugin();
