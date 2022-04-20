@@ -4,7 +4,6 @@ class Plugin {
     loadPlugin() {
         const lang = new Lang();
         lang.pt()
-        FilePond.parse(document.body);
     }
 }
 
