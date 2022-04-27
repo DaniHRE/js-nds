@@ -21,7 +21,7 @@ async function loadPlayerStyle() {
   var styleFile = document.createElement("style");
   styleFile.innerHTML = resFile;
   player.shadowRoot.appendChild(styleFile);
- 
+
 }
 
 loadPlayerStyle()
