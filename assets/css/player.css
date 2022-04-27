@@ -1,7 +1,8 @@
 #player {
     margin: 0;
     padding: 0;
-    display: relative;
+    width: 76.5vh;
+    position: relative;
 }
 
 #top {
