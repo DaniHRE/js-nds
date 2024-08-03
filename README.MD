@@ -1,13 +1,18 @@
 # JS-NDS 🎮
 
+JS-NDS is a small project using the Desmond library to run Nintendo DS (NDS) games directly in the browser.
 
-### ❗ This is a small project working with Desmond library make to run NDS games. ❗
+## How to Use? 👾
 
-## Want to use? 👾
+1. Choose your game file.
+2. Load and play!
 
-Choose your game file, and let's play. See? It's easy to load, and play your game.
+It's that simple!
 
-----
-### Special Thanks to: https://github.com/js-emulators/desmond 🎁
-### This project is based on this project up here. 🧾
-----
+## Play Now 🌐
+
+[Access JS-NDS and start playing!](https://danihre.github.io/js-nds/)
+
+## Special Thanks 🎁
+
+A special thanks to the [Desmond](https://github.com/js-emulators/desmond) project, which made this project possible.
